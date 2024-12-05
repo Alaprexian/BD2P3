@@ -51,10 +51,8 @@ Para implementar el índice multidimensional, utilizamos las siguientes técnica
 
 ---
 
-### **Maldición de la dimensionalidad y mitigación**
-
 #### **Problema**
-La "maldición de la dimensionalidad" ocurre cuando el número de dimensiones (características) del espacio aumenta, lo que reduce la efectividad de las técnicas de indexación tradicionales. Algunos efectos incluyen:
+Llegan a ocurrir problemas cuando el número de dimensiones (características) del espacio aumenta, lo que reduce la efectividad de las técnicas de indexación tradicionales. Algunos efectos incluyen:
 - La distancia entre puntos tiende a volverse uniforme.
 - Los índices como KD-Tree pierden eficiencia en espacios de alta dimensionalidad.
 
