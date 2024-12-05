@@ -72,11 +72,13 @@ Llegan a ocurrir problemas cuando el número de dimensiones (características) d
 ### **Preprocesamiento**
 1. **Carga de imágenes**:
    - Se cargan las imágenes desde subcarpetas organizadas por categorías.
-2. **Extracción de descriptores**:
-   - Se extraen descriptores SIFT utilizando OpenCV.
-3. **Construcción del vocabulario visual**:
+2. **Detectar puntos clave**:
+   - SIFT identifica características distintivas en cada imagen, como bordes, esquinas y regiones de alto contraste.
+3. **Calcular descriptores**:
+   - Para cada punto clave, se genera un descriptor que representa la distribución local de gradientes en la región alrededor del punto.
+4. **Construcción del vocabulario visual**:
    - Los descriptores se agrupan con *K-Means* para generar un vocabulario.
-4. **Indexación de histogramas**:
+5. **Indexación de histogramas**:
    - Se construye un índice KD-Tree con los histogramas BoVW generados.
 
 ### **Backend**
