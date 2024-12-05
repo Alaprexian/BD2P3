@@ -1,4 +1,5 @@
-# Image Search Application with Multidimensional Indexing
+# Parte 3 Proyecto BD2
+# Busqueda de imagenes con indice multidimensional
 
 ---
 
