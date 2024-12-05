@@ -1,5 +1,5 @@
 # Parte 3 Proyecto BD2
-# Busqueda de imagenes con indice multidimensional
+# Busqueda de imagenes con índice multidimensional
 
 ---
 
