@@ -91,7 +91,8 @@ El backend está construido en Flask y ofrece las siguientes rutas:
 - Interfaz web simple en HTML, CSS y JavaScript.
 - Permite cargar una imagen y seleccionar el método de búsqueda.
 - Muestra los resultados con la imagen, etiqueta y distancia al histograma de consulta.
-
+![](images/img1.png)
+![](images/img2.png)
 ---
 
 ## **Requisitos del Sistema**
